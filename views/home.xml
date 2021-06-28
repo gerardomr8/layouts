@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website_layout_inherit_homepage" name="Home page modificated" inherit_id="website.homepage">
+        <xpath expr="//t[@t-set='pageName']" position="replace">
+        <!-- Linea Arcoiris -->
+        <div class="margen">
+            <img class="img-fluid o_we_custom_image linea" src="" alt=""/>
+        </div>
+        <div id="wrap" class="oe_structure oe_empty">
+            <!-- Carrousel -->
+            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                <div id="myCarousel1623278981751" class="s_carousel s_carousel_default carousel slide" data-interval="10000">
+                    <ol class="carousel-indicators o_we_no_overlay">
+                        <li data-target="#myCarousel1623278981751" data-slide-to="0" class="active">
+                            <br/>
+                        </li>
+                        <li data-target="#myCarousel1623278981751" data-slide-to="1">
+                            <br/>
+                        </li>
+                        <li data-target="#myCarousel1623278981751" data-slide-to="2">
+                            <br/>
+                        </li>
+                        <li data-target="#myCarousel1623278981751" data-slide-to="3">
+                            <br/>
+                        </li>
+                        <li data-target="#myCarousel1623278981751" data-slide-to="4">
+                            <br/>
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item o_colored_level undefined pb256 pt256 oe_img_bg" style="background-image: url(&quot;/layouts/static/src/img/GUAAPA12.png&quot;);" data-name="Slide" data-mimetype="image/png" data-resize-width="1440">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 o_colored_level"/></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg" style="background-image: url(&quot;/layouts/static/src/img/GUAAPA12.png&quot;);" data-name="Slide" data-mimetype="image/png" data-resize-width="1440">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 o_colored_level"/></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg active" style="background-image: url(&quot;/layouts/static/src/img/GUAAPA12.png&quot;);" data-name="Slide" data-mimetype="image/png" data-resize-width="1440">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 o_colored_level"/></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg" style="background-image: url(&quot;/layouts/static/src/img/GUAAPA12.png&quot;);" data-name="Slide" data-mimetype="image/png" data-resize-width="1440">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-8 offset-lg-2 o_colored_level"/></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg" style="background-image: url(&quot;/layouts/static/src/img/GUAAPA12.png&quot;);" data-name="Slide" data-mimetype="image/png" data-resize-width="1440">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level"/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" href="#myCarousel1623278981751" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_not_editable o_we_no_overlay" href="#myCarousel1623278981751" data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </a>
+                </div>
+            </section>
+            <!-- Columnas 1 -->
+            <section class="s_three_columns o_colored_level pb0 pt0" data-vcss="001" data-snippet="s_three_columns" data-name="Columns">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/palette-and-brushes1.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 18px;">Maquillaje</font>
+                                        </b>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center;">
+                                        <b>
+                                            <u>
+                                                <a href="#top" target="_blank">
+                                                    <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                                                </a>
+                                            </u>
+                                        </b>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/make-up-brush-and-oils.png" alt="" loading="lazy" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 18px;">Cuidado de la piel</font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: center;">
+                                        <b>
+                                            <u>
+                                                <a href="#top" target="_blank">
+                                                    <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                                                </a>
+                                            </u>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/top-view-of-leaf.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip634030" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 18px;">Cabello</font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: center;">
+                                        <b>
+                                            <u>
+                                                <a href="#top" target="_blank">
+                                                    <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                                                </a>
+                                            </u>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/cosmetics.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 18px;">Fragancias</font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: center;">
+                                        <b>
+                                            <u>
+                                                <a href="#top" target="_blank">
+                                                    <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                                                </a>
+                                            </u>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Titulo Campaña -->
+            <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: left;">
+                        <font style="font-size: 36px;">Campaña outlet</font>
+                    </h1>
+                </div>
+            </section>
+            <!-- Seccion Campaña -->
+            <section class="s_image_gallery o_spc-small o_colored_level o_masonry pt0 pb0" data-vcss="001" data-columns="2" style="overflow: hidden;" data-snippet="s_images_wall" data-name="Images Wall">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="o_masonry_col o_snippet_not_selectable col-lg-6">
+                            <img class="img-fluid o_we_custom_image img-thumbnail border rounded" src="/layouts/static/src/img/Group52.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip194600" data-index="0" style="border-width: 0px !important; border-radius: 0px !important;" data-mimetype="image/png" data-resize-width="588"/>
+                            <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/Group52.png" alt="" loading="lazy" data-index="2" data-original-title="" title="" aria-describedby="tooltip103012" data-mimetype="image/png" data-resize-width="588"/>
+                        </div>
+                        <div class="o_masonry_col o_snippet_not_selectable col-lg-6">
+                            <img class="img img-fluid d-block" src="/layouts/static/src/img/Group54.png" data-index="1" alt="" data-name="Image" style="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip889935" data-mimetype="image/png" data-resize-width="588"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Seccion prod en linea -->
+            <section class="s_title o_colored_level undefined pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: left;">
+                        <font style="font-size: 36px;">Productos de línea&amp;nbsp;</font>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                          
+                        <font style="font-size: 36px;"/>
+                        <u>
+                            <a href="#top" target="_blank" data-original-title="" title="">
+                                <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                            </a>
+                        </u>
+                    </h1>
+                </div>
+            </section>
+            <!-- Productos Dinamicos -->
+            <section data-snippet="s_dynamic_snippet_products" class="s_dynamic_snippet_products s_dynamic pt24 pb24 o_colored_level d-none" data-name="Dynamic Products" data-number-of-elements="4" data-number-of-elements-small-devices="1" data-carousel-interval="5000" data-template-key="website.dynamic_filter_template_header_image_footer_card" data-product-category-id="13" data-filter-id="3" data-number-of-records="16">
+                <div class="o_not_editable container">
+                    <div class="css_non_editable_mode_hidden">
+                        <div class="missing_option_warning alert alert-info rounded-0 fade show d-print-none o_default_snippet_text d-none">
+                          Your Dynamic Snippet will be displayed here... This message is displayed because you did not provided both a filter and a template to use.
+                              
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="dynamic_snippet_template"/></div>
+            </section>
+            <!-- Seccion Prod por categoria -->
+            <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: center;"/>
+                    <section class="s_title o_colored_level undefined pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: left;">
+                                <font style="font-size: 36px;">Productos por categoría</font>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+                                  
+                                <u>
+                                    <a href="#top" target="_blank" data-original-title="" title="">
+                                        <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                                    </a>
+                                </u>
+                            </h1>
+                        </div>
+                    </section>
+                    <h1 style="text-align: center;"/>
+                </div>
+            </section>
+            <!-- Prod Dinamicos -->
+            <section data-snippet="s_dynamic_snippet_products" class="s_dynamic_snippet_products s_dynamic o_colored_level pt0 pb0 d-none" data-name="Dynamic Products" data-number-of-elements="4" data-number-of-elements-small-devices="1" data-carousel-interval="5000" data-template-key="website.dynamic_filter_template_header_image_footer_card" data-product-category-id="-1" data-filter-id="3" data-number-of-records="16">
+                <div class="container o_not_editable">
+                    <div class="css_non_editable_mode_hidden">
+                        <div class="missing_option_warning alert alert-info rounded-0 fade show d-print-none o_default_snippet_text d-none">
+                          Your Dynamic Snippet will be displayed here... This message is displayed because you did not provided both a filter and a template to use.
+                              
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="dynamic_snippet_template"/></div>
+            </section>
+            <!-- Marcas Nuevas -->
+            <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <section class="s_title o_colored_level undefined pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: left;">
+                                <font style="font-size: 36px;">Marcas nuevas&amp;nbsp;</font>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                                  
+                                <font style="font-size: 36px;"/> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; 
+                                  
+                                <u>
+                                    <a href="/#top" target="_blank" data-original-title="" title="">
+                                        <font style="font-size: 14px;" class="text-o-color-5">Ver más</font>
+                                    </a>
+                                </u>
+                            </h1>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <!-- Imagenes Marcas -->
+            <section class="s_three_columns o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/Frame9.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip18209" data-mimetype="image/png" data-resize-width="384"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <br/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb0">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/Group55.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="385"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <br/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/Group56.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="385"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <br/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner Rosa -->
+            <section class="s_text_image o_colored_level pt0 oe_img_bg pb0" data-snippet="s_image_text" data-name="Image - Text" style="background-image: url(&quot;/layouts/static/src/img/Rectangle_9.png&quot;);" data-mimetype="image/png" data-resize-width="1440">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pt16 pb16 o_colored_level">
+                            <img src="/layouts/static/src/img/banner.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip371979" data-mimetype="image/png" data-resize-width="487"/>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16 o_colored_level">
+                            <h2 style="text-align: center;">
+                                <font style="font-size: 18px;">Encuentra los productos</font>
+                            </h2>
+                            <h2 style="text-align: center;">
+                                <b>QUE NECESITAS</b>
+                            </h2>
+                            <h2 style="text-align: center;">
+                                <font style="font-size: 18px;">para el cuidado de tu piel</font>
+                            </h2>
+                            <h2 style="text-align: center;">
+                                <b>DESCUENTOS DE HASTA 60%</b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Titulo Aprende -->
+            <section class="s_title o_colored_level undefined pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: left;">
+                        <font style="font-size: 36px;">* Aprende de los expertos</font>
+                    </h1>
+                </div>
+            </section>
+            <!-- Multimedia -->
+            <section class="s_picture o_colored_level undefined pt0 pb0" data-snippet="s_picture" data-name="Picture" style="">
+                <div class="o_container_small">
+                    <h2 style="text-align: center;">
+                        <font style="font-size: 36px;">
+                            <b>
+                                <i>A ti ¿Que te inspira?</i>
+                            </b>
+                            <br/>
+                        </font>
+                    </h2>
+                    <p style="text-align: center;">Descubre tips, tendencias y lo que nos mueve, en los videos de la semana </p>
+                    <p style="text-align: center;">
+                        <br/>
+                    </p>
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure"/>
+                            <div class="media_iframe_video d-block mx-auto" data-oe-expression="//www.youtube.com/embed/XV2g-SSa-2c?autoplay=0&amp;rel=0&amp;fs=0&amp;modestbranding=1">
+                                <div class="css_editable_mode_display" data-original-title="" title="" aria-describedby="tooltip42784">&amp;nbsp;</div>
+                                <div class="media_iframe_video_size">&amp;nbsp;</div>
+                                <iframe src="//www.youtube.com/embed/XV2g-SSa-2c?autoplay=0&amp;rel=0&amp;fs=0&amp;modestbranding=1" allowfullscreen="allowfullscreen" frameborder="0"/>
+                            </div>
+                            <figure class="figure">
+                                <figcaption class="figure-caption text-muted py-3">&amp;nbsp;</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Seccion Instagram -->
+            <!-- <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title"><div class="s_allow_columns container"><h1 style="text-align: center;"/><section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title"><div class="s_allow_columns container"/></section></div></section> -->
+            <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: center;"/>
+                    <h1 style="text-align: left;">
+                        <font style="font-size: 36px;">Siguenos en Instagram
+                              
+                            <br/>
+                        </font>
+                    </h1>
+                    <h1 style="text-align: center;"/>
+                </div>
+            </section>
+            <section class="s_three_columns o_colored_level pb0 pt0" data-vcss="001" data-snippet="s_three_columns" data-name="Columns">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/positive-lady.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip134212" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <font style="font-size: 14px;" class="text-o-color-5">
+                                            <br/>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/woman-holding.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <font style="font-size: 14px;" class="text-o-color-5">
+                                            <br/>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/GUAAPA56.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <font style="font-size: 14px;" class="text-o-color-5">
+                                            <br/>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <img class="card-img-top" src="/layouts/static/src/img/brunette.png" alt="" loading="lazy" data-mimetype="image/png" data-resize-width="282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <font style="font-size: 14px;" class="text-o-color-5">
+                                            <br/>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Iconos -->
+            <section class="s_three_columns o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_three_columns" data-name="Columns">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/fi_truck.png" alt="" loading="lazy"/>
+                                        <br/>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 14px;" class="text-o-color-5">Envío Gratis</font>
+                                        </b>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font style="font-size: 14px;" class="text-o-color-5">A partir de $600.00 pesos</font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/fi_award.png" alt="" loading="lazy"/>
+                                        <br/>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 14px;" class="text-o-color-5">Las mejores marcas</font>
+                                        </b>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font style="font-size: 14px;" class="text-o-color-5">Productos 100% Originales.
+                                              </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/fi_credit-card.png" alt="" loading="lazy"/>
+                                        <br/>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 14px;" class="text-o-color-5">Pago seguro
+                                                  
+                                                <br/>
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font style="font-size: 14px;" class="text-o-color-5">Tu pago siempre seguro</font>
+                                    </h3>
+                                    <h3 class="card-title">&amp;nbsp;</h3>
+                                    <p class="card-text">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/fi_check-circle.png" alt="" loading="lazy"/>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <b>
+                                            <font style="font-size: 14px;" class="text-o-color-5">Los mejores precios</font>
+                                        </b>
+                                    </h3>
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font style="font-size: 14px;" class="text-o-color-5">Encuentra los mejores precios
+                                              </font>
+                                    </h3>
+                                    <p class="card-text">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Formas de Pago -->
+            <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: center;"/>
+                    <h1 style="text-align: left;">
+                        <font style="font-size: 36px;">Formas de pago</font>
+                    </h1>
+                    <h1 style="text-align: center;"/>
+                </div>
+            </section>
+            <section class="s_three_columns o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_three_columns" data-name="Columns">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="s_col_no_bgcolor pt16 col-lg-2 offset-lg-1 pb16">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_oxxo.png" alt="" loading="lazy" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip56342"/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2" style="text-align: center;">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_Mastercard.png" alt="" loading="lazy"/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2" style="text-align: center;">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_visa.png" alt="" loading="lazy" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip296573"/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2" style="text-align: center;">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_PayPal.png" alt="" loading="lazy"/>
+                                        <br/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card bg-white h-100 border" style="border-width: 0px !important;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_American_Express.png" alt="" loading="lazy"/>
+                                        <br/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </xpath>
+    </template>
+</odoo>

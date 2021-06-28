@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="template_id" name="template_name" inherit_id="module_name.template_id">
+        <xpath expr="" position="inside">
+            <form class="oe_login_form" role="form" t-attf-action="/web/login" method="post" onsubmit="this.action = '/web/login' + location.hash">
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+
+                <div class="form-group field-db" t-if="databases and len(databases) &gt; 1">
+                    <label for="db" class="col-form-label">Database</label>
+                    <div t-attf-class="input-group {{'input-group-sm' if form_small else ''}}">
+                        <input type="text" name="db" t-att-value="request.db" id="db" t-attf-class="form-control #{'form-control-sm' if form_small else ''}" required="required" readonly="readonly"/>
+                        <span class="input-group-append">
+                            <a role="button" href="/web/database/selector" class="btn btn-secondary">Select <i class="fa fa-database" role="img" aria-label="Database" title="Database"/></a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group field-login">
+                    <label for="login">Email</label>
+                    <input type="text" placeholder="Email" name="login" t-att-value="login" id="login" t-attf-class="form-control #{'form-control-sm' if form_small else ''}" required="required" autofocus="autofocus" autocapitalize="off"/>
+                </div>
+
+                <div class="form-group field-password">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" name="password" id="password" t-attf-class="form-control #{'form-control-sm' if form_small else ''}" required="required" autocomplete="current-password" t-att-autofocus="'autofocus' if login else None" maxlength="4096"/>
+                    <a t-if="reset_password_enabled" class="d-flex justify-content-end" t-attf-href="/web/reset_password?{{ keep_query() }}">Olvidé mi contraseña</a>
+                </div>
+
+                <p class="alert alert-danger" t-if="error" role="alert">
+                    <t t-esc="error"/>
+                </p>
+                <p class="alert alert-success" t-if="message" role="status">
+                    <t t-esc="message"/>
+                </p>
+
+                <div t-attf-class="clearfix oe_login_buttons text-center mb-1 {{'pt-2' if form_small else 'pt-3'}}">
+                    <button type="submit" class="btn btn-primary btn-block btn-registro">Log in</button>
+                    
+                    <div class="o_login_auth"/>
+                </div>
+
+                <input type="hidden" name="redirect" t-att-value="redirect"/>
+            </form>
+        </xpath>
+    </template>
+
+</odoo>

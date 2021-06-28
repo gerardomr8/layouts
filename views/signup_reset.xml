@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="template_id" name="template_name" inherit_id="module_name.template_id">
+        <xpath expr="" position="inside">
+            <div class="justify-content-between mt-2 d-flex small">
+                    <h5>¿Aún no tienes una cuenta? <a t-if="signup_enabled" class="font-weight-bold" t-attf-href="/web/signup?{{ keep_query() }}">¡Registrate!</a></h5>
+                    
+                </div>
+        </xpath>
+    </template>
+
+</odoo>

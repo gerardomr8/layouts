@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="header_line" name="header_line" inherit_id="web.frontend_layout">
+        <!-- <xpath expr="//xpath[@expr='//t[@t-raw='0']']" position="replace">
+        <xpath expr="//t[@t-raw='0']" position="replace">
+            <div id="wrapwrap" t-attf-class="#{pageName or ''}">
+                <header t-if="not no_header" id="top" data-anchor="true">
+                    <img class="img-responsive d-block mx-auto" t-attf-src="/web/binary/company_logo" alt="Logo"/>
+                    <div class="margen">
+                        <img class="img-fluid o_we_custom_image linea" src="/layout/static/src/img/LINE2-small.png" alt=""/>
+                    </div>                    
+                </header>
+                <main>
+                    <t t-raw="0"/>
+                </main>
+                <footer t-if="not no_footer" id="bottom" data-anchor="true" t-attf-class="bg-light o_footer">
+                    <div id="footer"/>
+                    <div t-if="not no_copyright" class="o_footer_copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-sm text-center text-sm-left text-muted">
+                                    <t t-call="web.debug_icon"/>
+                                    <span class="o_footer_copyright_name mr-2">Todos los derechos reservados 2021</span>
+                                </div>
+                                <div class="col-sm text-center text-sm-right">
+                                    <t t-call="web.brand_promotion"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </xpath>
+            
+        </xpath> -->
+        
+    </template>
+    
+
+</odoo>

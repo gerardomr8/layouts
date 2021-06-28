@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>  
+    <template id="website_layout_banner_header" name="header_banner" inherit_id="website.template_header_contact">
+        <xpath expr="//div[@id='oe_structure_header_contact_1']" position="replace">
+            <div class="oe_structure oe_structure_solo" id="oe_structure_header_contact_1">
+          <section class="s_text_block pt8 pb8 o_colored_level undefined o_cc o_cc2 oe_img_bg bg-header-contact d-flex" data-snippet="s_text_block" data-name="Text" data-original-id="1200" data-resize-width="1440">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col-lg-12 d-md-block d-none o_colored_level">
+                          <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/fi_truck.png" alt="" loading="lazy" data-original-id="1017" data-original-src="/web/image/1056-0565009e/fi_truck.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip878028"/>
+                          <small style="margin-left: 20px;">
+                              <span style="font-size:14px;" class="text-black">
+                                  <b>Envio Gratis a partir de $600 </b>
+                              </span>
+                          </small>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <section class="s_text_block pt8 pb8 o_colored_level undefined o_cc o_cc2 fondo" data-snippet="s_text_block" data-name="Text" style="" data-original-id="1200" data-original-src="" data-mimetype="image/png" data-resize-width="1440">
+              <div class="container container-2">
+                  <div class="row align-items-center">
+                      <div class="col-lg-2 o_colored_level">
+                          <span class="text-muted"/>
+                          <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_guaapa.png" alt="" loading="lazy"/>
+                          <span class="text-muted"/>
+                      </div>
+                      <div class="col-lg-5 o_colored_level undefined" style="">
+                          <form method="get" data-snippet="s_products_searchbar_input" class="o_wsale_products_searchbar_form s_wsale_products_searchbar_input " action="/shop" data-name="Products Search">
+                              <div role="search" class="input-group">
+                                  <div class="input-group-append ">
+                                      <button type="submit" class="btn btn-light oe_search_button busqueda" aria-label="Search" title="Search">
+                                          <i class="fa fa-search "/>
+                                      </button>
+                                  </div>
+                                  <input type="search" name="search" class="search-query form-control oe_search_box " data-limit="5" data-display-description="true" data-display-price="true" data-display-image="true" placeholder="Buscar productos, marcas, etc." autocomplete="off"/>
+                              </div>
+                              <input name="order" type="hidden" class="o_wsale_search_order_by " value=""/>
+                          </form>
+                      </div>
+                      <div class="col-lg-5 o_colored_level text-lg-left" style="">
+                          <small class="s_share_title text-muted"/>
+                          <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/comunity.png" alt="" data-original-id="1202" data-original-title="" title="" aria-describedby="tooltip215366" loading="lazy"/>
+                          <small class="s_share_title text-muted" style="">
+                              <font style="font-size: 14px;" class="text-o-color-5">Comunidad&amp;nbsp;</font>
+                              <b>
+                                  <font style="font-size: 14px;" class="text-o-color-5">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </font>
+                              </b>
+                          </small>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                            
+                          <small class="s_share_title text-muted" style="">
+                              <b>
+                                  <font style="" class="text-o-color-5"/>
+                              </b>
+                          </small>
+                          <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/user.png" alt="" loading="lazy"/>
+                          <font class="text-o-color-5 cuenta" style="font-size: 14px;"> <a href="/web/signup">Cuenta</a> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </font>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                            
+                          <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/shopping-bag.png" alt="" loading="lazy"/>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                            
+                          <font style="font-size: 14px;">&amp;nbsp;&amp;nbsp;&amp;nbsp;</font>
+                          <font class="text-o-color-5" style="font-size: 14px;">$0.00
+                              <br/>
+                          </font>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </div>
+        </xpath>
+    </template>
+
+</odoo>

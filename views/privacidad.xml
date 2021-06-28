@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="template_id" name="template_name" inherit_id="module_name.template_id">
+        <xpath expr="" position="inside">
+            <div id="wrap" class="oe_structure oe_empty">
+            <section class="s_text_block pt32 pb32 o_colored_level" data-snippet="s_text_block" data-name="Text">
+                <div class="container s_allow_columns">
+                    <h2 class="font-weight-bold text-center">Aviso de Privacidad</h2>
+                    <br></br>
+                    <p class="o_default_snippet_text text-center">
+                        <b class="o_default_snippet_text ">¿Con que tarjetas puedo pagar?</b>
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <div class="w-75 p-3 ">
+                            <p class="o_default_snippet_text text-justify">We provide highend services without the highend price. A moderate price allows us to provide the high end services you enjoy and the lower price allows you to enjoy it more oftent Prices for services are subject to consultation 
+                            for everyone even when only written 
+                            for just one person. If you try to write with a wide, general audience in mind, your story will sound fake and lack emotion. No one will be interested. Write for one person. If it’s genuine for the one, it’s genuine for the rest.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </xpath>
+    </template>
+    
+
+</odoo>

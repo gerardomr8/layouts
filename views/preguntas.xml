@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="template_id" name="template_name" inherit_id="module_name.template_id">
+        <xpath expr="" position="inside">
+            <div id="wrap" class="oe_structure oe_empty">
+      <section class="s_text_block pt32 pb32 o_colored_level" data-snippet="s_text_block" data-name="Text">
+        <div class="container s_allow_columns">
+          <h2 class="font-weight-bold text-center">Preguntas frecuentes</h2>
+          <br/>
+          <div class="d-flex justify-content-center">
+            <div class="w-75 p-3 "/>
+          </div>
+        </div>
+      </section>
+      <section class="s_faq_collapse o_colored_level pb0 pt0" data-snippet="s_faq_collapse" data-name="Accordion">
+        <div class="container">
+          <div id="myCollapse1624834689825" class="accordion" role="tablist">
+            <div class="card bg-white" data-name="Item">
+              <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed text-dark" data-target="#myCollapseTab1624834689826" data-original-title="" title="" aria-describedby="tooltip304759">¿Que formas de pago aceptan?</a>
+              <div class="collapse" role="tabpanel" data-parent="#myCollapse1624834689825" id="myCollapseTab1624834689826" style="">
+                <div class="card-body">
+                  <p class="card-text o_default_snippet_text">We provide highend services without the highend price. A moderate price allows us to provide the high end services you enjoy and the lower price allows you to enjoy it more often Prices for services are subject to consultation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_faq_collapse o_colored_level pt0 pb0" data-snippet="s_faq_collapse" data-name="Accordion">
+        <div class="container">
+          <div id="myCollapse1624834692173" class="accordion" role="tablist">
+            <div class="card bg-white" data-name="Item">
+              <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed text-dark" data-target="#myCollapseTab1624834692174" data-original-title="" title="" aria-describedby="tooltip910896">¿Con qué tarjetas puedo pagar?</a>
+              <div class="collapse" role="tabpanel" data-parent="#myCollapse1624834692173" id="myCollapseTab1624834692174" style="">
+                <div class="card-body">
+                  <p class="card-text o_default_snippet_text">We provide highend services without the highend price. A moderate price allows us to provide the high end services you enjoy and the lower price allows you to enjoy it more often Prices for services are subject to consultation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_faq_collapse o_colored_level pt0 pb0" data-snippet="s_faq_collapse" data-name="Accordion">
+        <div class="container">
+          <div id="myCollapse1624834694735" class="accordion" role="tablist">
+            <div class="card bg-white" data-name="Item">
+              <a href="#" role="tab" data-toggle="collapse" aria-expanded="true" class="card-header text-dark" data-target="#myCollapseTab1624834694736" data-original-title="" title="">¿Por qué rechazaron mi pago con tarjeta?</a>
+              <div class="collapse show" role="tabpanel" data-parent="#myCollapse1624834694735" id="myCollapseTab1624834694736" style="">
+                <div class="card-body">
+                  <p class="card-text o_default_snippet_text">We provide highend services without the highend price. A moderate price allows us to provide the high end services you enjoy and the lower price allows you to enjoy it more often Prices for services are subject to consultation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_faq_collapse o_colored_level pt0 pb0" data-snippet="s_faq_collapse" data-name="Accordion">
+        <div class="container">
+          <div id="myCollapse1624834698821" class="accordion" role="tablist">
+            <div class="card bg-white" data-name="Item">
+              <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header o_default_snippet_text collapsed text-dark" data-target="#myCollapseTab1624834698822">¿Puedo pagar contra entrega?</a>
+              <div class="collapse" role="tabpanel" data-parent="#myCollapse1624834698821" id="myCollapseTab1624834698822" style="">
+                <div class="card-body">
+                  <p class="card-text o_default_snippet_text">We provide highend services without the highend price. A moderate price allows us to provide the high end services you enjoy and the lower price allows you to enjoy it more often Prices for services are subject to consultation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_faq_collapse o_colored_level pt0 pb0" data-snippet="s_faq_collapse" data-name="Accordion">
+        <div class="container">
+          <div id="myCollapse1624834701427" class="accordion" role="tablist">
+            <div class="card bg-white" data-name="Item">
+              <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header o_default_snippet_text collapsed text-dark" data-target="#myCollapseTab1624834701428">¿Puedo pagar a meses sin interés?</a>
+              <div class="collapse" role="tabpanel" data-parent="#myCollapse1624834701427" id="myCollapseTab1624834701428" style="">
+                <div class="card-body">
+                  <p class="card-text o_default_snippet_text">We provide highend services without the highend price. A moderate price allows us to provide the high end services you enjoy and the lower price allows you to enjoy it more often Prices for services are subject to consultation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+        </xpath>
+    </template>
+</odoo>

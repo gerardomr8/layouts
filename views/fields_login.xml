@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="login_fields" name="login_fields" inherit_id="auth_signup.fields">
+        <xpath expr="//div[@class='form-group field-name']" position="replace">
+            <div>
+        <p>Crear Cuenta</p>
+    </div>
+    <div class="form-group field-name">
+        <div>
+            <label for="name">Nombre*</label>
+            <input type="text" name="name" t-att-value="name" id="name" class="form-control form-control-sm campos1" placeholder="Escribe tu nombre" required="required" t-att-readonly="'readonly' if only_passwords else None" t-att-autofocus="'autofocus' if login and not only_passwords else None"/>
+            <label for="name">Apellido*</label>
+            <input type="text" name="name" t-att-value="name" id="name" class="form-control form-control-sm campos1" placeholder="Escribe tu apellido" required="required" t-att-readonly="'readonly' if only_passwords else None" t-att-autofocus="'autofocus' if login and not only_passwords else None"/>
+        </div>
+    </div>
+    <div class="form-group field-login">
+        <label for="login">Correo Electrónico</label>
+        <input type="text" name="login" t-att-value="login" id="login" class="form-control form-control-sm campos2" placeholder="Ej. ejemplo@tucorreo.com" autofocus="autofocus" autocapitalize="off" required="required" t-att-readonly="'readonly' if only_passwords else None"/>
+    </div>
+    <div class="form-group field-password pt-2">
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" class="form-control form-control-sm campos2" required="required" t-att-autofocus="'autofocus' if only_passwords else None"/>
+    </div>
+    <div class="form-group field-confirm_password">
+        <label for="confirm_password">Confirmar Contraseña</label>
+        <input type="password" name="confirm_password" id="confirm_password" class="form-control form-control-sm campos2" required="required"/>
+        <span>*campos obligatorios</span>
+    </div>
+    <div>
+        <h5>Al registrarte aceptas el <a href="/privacidad" class="font-weight-bold">Aviso de privacidad</a>, los<a href="/privacidad" class="font-weight-bold"> Términos y condiciones</a> y el envío de noticias</h5>
+    </div>
+        </xpath>
+    </template>
+</odoo>

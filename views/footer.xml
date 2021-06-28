@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website_layout_inherit" name="Footer" inherit_id="website.layout">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-if="not no_footer">
+                <section class="s_text_block pt40 pb16 oe_img_bg bg-footer" data-snippet="s_text_block" data-name="Text">
+                    <div class="container">
+                    <div class="row">
+                        <div class="pt24 pb24 col-lg-3 o_colored_level">
+                        <h5 class="mb-3">
+                            <b>
+                            <font style="" class="text-black">Información</font>
+                            </b>
+                        </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                            <a href="/privacidad">
+                                <font style="" class="text-black footer-list">Acerca de Guaapa</font>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="/preguntas">
+                                <font style="" class="text-black footer-list" data-original-title="" title="" aria-describedby="tooltip973617">Información de envío</font>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="/preguntas">
+                                <font style="" class="text-black footer-list" data-original-title="" title="" aria-describedby="tooltip520418">Politicas de devolución</font>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="/preguntas">
+                            <font style="" class="text-black footer-list">Preguntas Frecuentes</font>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="/preguntas">
+                            <font style="" class="text-black footer-list">Método de Pago</font>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="/privacidad">
+                                <font style="" class="text-black footer-list">Términos y condiciones</font>
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                        <div class="pt24 pb24 o_colored_level col-lg-3">
+                        <h5 class="mb-3">
+                            <b>
+                            <font style="" class="text-black">Contacto</font>
+                            </b>
+                        </h5>
+                        <p>
+                            <font style="" class="text-black">contacto@guaapa.com</font>
+                        </p>
+                        <p>
+                            <font style="" class="text-black">Escribenos: 55 5555-5555</font>
+                        </p>
+                        <p>
+                            <font style="" class="text-black">Dirección: Ciudad de México</font>
+                        </p>
+                        </div>
+                        <div id="connect" class="pt24 o_colored_level col-lg-3 pb0">
+                        <h5 class="mb-3">
+                            <font style="" class="text-black">
+                            <b>Descarga nuestra app</b>
+                            </font>
+                        </h5>
+                        <h5 class="mb-3">
+                            <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logo_apple_store.png"  alt="" loading="lazy"/>
+                            <font style="" class="text-black">
+                            <br/>
+                            </font>
+                        </h5>
+                        <h5 class="mb-3">
+                            <img class="img-fluid o_we_custom_image" src="/layouts/static/src/img/logogoogle.png" alt="" loading="lazy"/>
+                        </h5>
+                        </div>
+                        <div id="connect" class="pt24 pb24 o_colored_level col-lg-3">
+                        <h5 class="mb-3">
+                            <font style="" class="text-black">Síguenos:</font>
+                        </h5>
+                        <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                            <i class="fa fa-facebook m-1 text-o-color-5 fa-lg" data-original-title="" title="" aria-describedby="tooltip497673" style=""/>
+                        </a>
+                        <a href="/website/social/youtube" class="s_share_youtube" target="_blank">
+                            <i class="fa fa-youtube m-1 text-o-color-5 fa-lg" data-original-title="" title="" aria-describedby="tooltip501222" style=""/>
+                        </a>
+                        <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                            <i class="fa fa-instagram m-1 text-o-color-5 fa-lg" data-original-title="" title="" aria-describedby="tooltip960756" style=""/>
+                        </a>
+                        <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                            <i class="fa fa-twitter m-1 text-o-color-5 fa-lg" data-original-title="" title="" aria-describedby="tooltip963762" style=""/>
+                        </a>
+                        <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                            <i class="fa fa-linkedin m-1 text-black fa-lg" data-original-title="" title="" aria-describedby="tooltip933663" style=""/>
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>

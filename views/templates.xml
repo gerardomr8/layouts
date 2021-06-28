@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_frontend_layout" inherit_id="web.assets_frontend" name="custom_template assets">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/scss" href="/layouts/static/src/scss/custom_template.css"/>
+                <!-- <link rel="stylesheet" type="text/scss" href="/layouts/static/src/font/"/> -->
+            </xpath>
+        </template>
+    </data>
+</odoo>

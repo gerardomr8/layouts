@@ -1,0 +1,83 @@
+/* ----- Header ----- */
+/* Backgorund banner header-1 */
+.bg-header-contact{
+    background-color: #EEEFF2!important;
+    height: 49px;
+}
+/* Background header-2 */
+.fondo{
+    background-color: white!important;
+    height: 90px;
+}
+/* Background de la lupa */
+.busqueda{
+    background-color: white!important;
+    border: none!important;    
+}
+.form-control{
+    border-radius: 15px 15px 15px 15px!important;
+}
+/* Color de la seccion cuenta */
+.cuenta a{
+    color: black!important;
+}
+
+/* Linea arcoiris del menu */
+.margen{
+    width: auto;
+    height: 5px;
+    margin: 0px;
+    padding: 0px;
+    background:url(/layouts/static/src/img/LINE2-small.png);
+}
+.linea{
+    height: auto;
+    width: auto;
+}
+
+.card{
+    border: none!important;
+}
+.card-header{
+    background-color: white!important;
+    border-bottom: none!important;
+}
+.card-footer{
+    background-color: white!important;
+    border-top: none!important;
+}
+
+/* ----- Footer ----- */
+/* Background footer */
+.bg-footer{    
+    background-color: #F2F2F2!important;    
+}
+
+/* Paginas de guaapa  */
+.oe_reset_password_form{
+    max-width: 400px!important;
+}
+.campos1{
+    width: 140px!important;
+    height: 43px!important;
+    border-radius: 15px 15px 15px 15px!important;
+}
+.campos2{
+    border-radius: 15px 15px 15px 15px!important;
+    height: 43px!important;
+}
+.btn-registro{
+    background: linear-gradient(90deg, #994DAC 25.52%, #5E8AB4 89.06%)!important;
+}
+.btn-agregar{
+    border-top-color: rgba(118, 90, 199, 1)!important;
+    border-right-color: rgba(118, 90, 199, 1)!important;
+    border-bottom-color: rgba(157, 80, 180, 1)!important;
+    border-left-color: rgba(157, 80, 180, 1)!important;
+    border-radius: 15px 15px 15px 15px!important;
+}
+.o_wsale_product_btn{
+    position: static!important;
+}
+
+
